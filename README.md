@@ -1,3 +1,0 @@
-# Calculadora
-
-### Calculadora JS
