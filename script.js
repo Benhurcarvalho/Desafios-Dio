@@ -13,7 +13,7 @@ function calculadora (){
             alert("Erro - parâmetros inválidos")
             calculadora()
         }else {
-            function soma() {
+            function sum() {
                 resultado = n1 + n2;
                 alert(`${n1} + ${n2} = ${resultado}`);
                 novaOperacao();
@@ -59,7 +59,7 @@ function calculadora (){
         }
 
         if(operacao == 1) {
-            soma();
+            sum();
         }else if (operacao == 2) {
             subtracao ();
         }else if (operacao == 3) {
