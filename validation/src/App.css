@@ -1,5 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #132a57;
+}
+
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
+  color: aliceblue;
+  align-items: stretch;
+  flex-wrap: nowrap;
 }
 
 .App-logo {
@@ -36,3 +48,4 @@
     transform: rotate(360deg);
   }
 }
+
